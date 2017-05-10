@@ -9,6 +9,8 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.Toast;
 
+import static android.R.attr.name;
+
 public class SecondFragment extends android.support.v4.app.Fragment{
 
     public SecondFragment() {
@@ -24,11 +26,12 @@ public class SecondFragment extends android.support.v4.app.Fragment{
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View root = inflater.inflate(R.layout.main_second_tab, container, false);
-
     return  root ;
     }
 
-    public StringBuilder sbMethod() {
+
+
+    /*public StringBuilder sbMethod() {
         GPSTracker gps = new GPSTracker(getContext());
         double Latitude1 = 0.0000;
         double Longitude1 = 0.0000;
@@ -50,6 +53,6 @@ public class SecondFragment extends android.support.v4.app.Fragment{
         Log.d("Map", "api: " + sb.toString());
 
         return sb;
-    }
+    }*/
 
 }

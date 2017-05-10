@@ -14,13 +14,15 @@ android:orientation="vertical"
     <com.google.android.gms.maps.MapView
         android:id="@+id/mapView"
         android:layout_width="match_parent"
-        android:layout_height="370dp" />
+        android:layout_height="375dp" />
 
     <Button
         android:id="@+id/button_organiser"
         android:layout_width="match_parent"
         android:layout_height="90dp"
+        android:background="?android:attr/colorPrimaryDark"
         android:text="Organiser une soirée"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
         android:textSize="24sp"
         android:textStyle="bold" />
 
