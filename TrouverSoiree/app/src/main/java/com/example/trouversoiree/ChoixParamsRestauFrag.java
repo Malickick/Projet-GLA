@@ -72,6 +72,7 @@ public class ChoixParamsRestauFrag extends android.support.v4.app.Fragment {
                 } else if(!checkBoxFastfood.isChecked() && fastfood ) {
                     int index = listeParamsRestau.indexOf("fast-food");
                     listeParamsRestau.remove(index);
+                    fastfood = false;
                 }
             }
         });
@@ -86,6 +87,7 @@ public class ChoixParamsRestauFrag extends android.support.v4.app.Fragment {
                 } else if(!checkBoxThai.isChecked() && thai ) {
                     int index = listeParamsRestau.indexOf("thai");
                     listeParamsRestau.remove(index);
+                    thai = false;
                 }
             }
         });
@@ -100,6 +102,8 @@ public class ChoixParamsRestauFrag extends android.support.v4.app.Fragment {
                 } else if(!checkBoxChinois.isChecked() && chinois ) {
                     int index = listeParamsRestau.indexOf("chinois");
                     listeParamsRestau.remove(index);
+                    chinois = false;
+
                 }
             }
         });
@@ -114,6 +118,7 @@ public class ChoixParamsRestauFrag extends android.support.v4.app.Fragment {
                 } else if(!checkBoxJap.isChecked() && japonais ) {
                     int index = listeParamsRestau.indexOf("japonais");
                     listeParamsRestau.remove(index);
+                    japonais = false;
                 }
             }
         });
@@ -128,6 +133,8 @@ public class ChoixParamsRestauFrag extends android.support.v4.app.Fragment {
                 } else if(!checkBoxIndien.isChecked() && indien ) {
                     int index = listeParamsRestau.indexOf("indien");
                     listeParamsRestau.remove(index);
+                    indien = false;
+
                 }
             }
         });
@@ -142,6 +149,7 @@ public class ChoixParamsRestauFrag extends android.support.v4.app.Fragment {
                 } else if(!checkBoxAfro.isChecked() && africain ) {
                     int index = listeParamsRestau.indexOf("africain");
                     listeParamsRestau.remove(index);
+                    africain = false;
                 }
             }
         });
@@ -156,6 +164,7 @@ public class ChoixParamsRestauFrag extends android.support.v4.app.Fragment {
                 } else if(!checkBoxOriental.isChecked() && oriental ) {
                     int index = listeParamsRestau.indexOf("oriental");
                     listeParamsRestau.remove(index);
+                    oriental = false;
                 }
             }
         });
@@ -170,6 +179,8 @@ public class ChoixParamsRestauFrag extends android.support.v4.app.Fragment {
                 } else if(!checkBoxAmericain.isChecked() && americain ) {
                     int index = listeParamsRestau.indexOf("americain");
                     listeParamsRestau.remove(index);
+                    americain = false;
+
                 }
             }
         });
@@ -184,6 +195,8 @@ public class ChoixParamsRestauFrag extends android.support.v4.app.Fragment {
                 } else if(!checkBoxFr.isChecked() && francais ) {
                     int index = listeParamsRestau.indexOf("français");
                     listeParamsRestau.remove(index);
+                    francais = false;
+
                 }
             }
         });
@@ -198,6 +211,8 @@ public class ChoixParamsRestauFrag extends android.support.v4.app.Fragment {
                 } else if(!checkBoxThai.isChecked() && latin ) {
                     int index = listeParamsRestau.indexOf("latin");
                     listeParamsRestau.remove(index);
+                    latin = false;
+
                 }
             }
         });
@@ -212,6 +227,7 @@ public class ChoixParamsRestauFrag extends android.support.v4.app.Fragment {
                 } else if(!checkBoxItalien.isChecked() && italien ) {
                     int index = listeParamsRestau.indexOf("italien");
                     listeParamsRestau.remove(index);
+                    italien = false;
                 }
             }
         });
