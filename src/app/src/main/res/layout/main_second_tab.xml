@@ -11,13 +11,97 @@
     android:layout_height="wrap_content"
     android:id="@+id/second">
 </RelativeLayout>
-    <ListView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-    </ListView>
-    <Button
-        android:id="@+id/button_test"
+    <TextView
+        android:id="@+id/Bar"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Test" />
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Bar" />
+
+    <TextView
+        android:id="@+id/NomBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="16dp"
+        android:text="Nom" />
+
+    <TextView
+        android:id="@+id/DescrBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Description" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="16dp"
+        android:background="#FF909090" />
+
+
+    <TextView
+        android:id="@+id/Restaurant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Restaurant" />
+
+    <TextView
+        android:id="@+id/NomRestau"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="16dp"
+        android:text="Nom" />
+
+    <TextView
+        android:id="@+id/DescrRestau"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Description" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="16dp"
+        android:background="#FF909090" />
+
+    <TextView
+        android:id="@+id/Boite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Boite" />
+
+    <TextView
+        android:id="@+id/NomBoite"
+        android:layout_width="204dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="16dp"
+        android:text="Nom" />
+
+    <TextView
+        android:id="@+id/DescrBoite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Description" />
 </LinearLayout>
